@@ -2,12 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Multilingual"
-             x:Class="Multilingual.MainPage">
+             x:Class="Multilingual.MainPage"
+             xmlns:translator="clr-namespace:Multilingual.Helpers">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="{translator:Translate WelcomeMessage}"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" FontSize="30"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
