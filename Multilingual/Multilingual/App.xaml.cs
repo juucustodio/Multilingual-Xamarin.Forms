@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿using Plugin.Multilingual;
 using Xamarin.Forms;
 
 namespace Multilingual
@@ -12,8 +8,9 @@ namespace Multilingual
         public App()
         {
             InitializeComponent();
+            AppResources.Culture = CrossMultilingual.Current.DeviceCultureInfo;
 
-            MainPage = new Multilingual.MainPage();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()
