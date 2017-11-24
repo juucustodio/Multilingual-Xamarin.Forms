@@ -28,10 +28,10 @@ Example of Multilingual in Xamarin.Forms applications.
 
 <p>
   <br>Portuguese<br>
-  <image height="500px"src="https://julianocustodiosite.files.wordpress.com/2017/11/screenshot-1510660074302.jpg?w=400&h=633"/><br>  
+  <image height="500px"src="https://julianocustodiosite.files.wordpress.com/2017/11/screenshot-1510660150482.jpg?w=400&h=633"/><br>  
 </p>
 
 <p>
   <br>French<br>
-  <image height="500px"src="https://julianocustodiosite.files.wordpress.com/2017/11/screenshot-1510660074302.jpg?w=400&h=633"/><br>  
+  <image height="500px"src="https://julianocustodiosite.files.wordpress.com/2017/11/screenshot-1510660207951.jpg?w=400&h=633"/><br>  
 </p>
